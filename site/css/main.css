@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background-color: white;
+    width: 100%;
+}
+
+.headwrapper {
+    background-color: #1878BF;
+    width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+    background-color: #1878BF;
+    width: 100%;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800;
+    color: white;
+}
+
+header nav {
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {color: white;}
+
+header nav ul li a:hover {
+    border-bottom: 5px solid white;
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hero--info {
+    width: 700px;
+    padding-top: 70px;
+}
+
+.hero--info h1{
+    color: #0F4D7A;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.hero--info p{
+    font-weight: 500;
+    line-height: 170%;
+    margin: 30px 0;
+}
+
+.hero--info .btn {
+    display: inline-block;
+    background: #1878BF;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: all 500ms ease;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hero--info .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background: #0F4D7A;
+}
+
+.hero img {
+    position: absolute;
+    top: -350px;
+    right: -400px;
+    scale: 40%;
+}
+
+.about {
+    padding-bottom: 100px;
+    position: relative;
+    padding-top: 25px;
+}
+
+.about h1{
+    color: #0F4D7A;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
+.about p {
+    font-weight: 500;
+    line-height: 170%;
+    margin-bottom: 30px; 
+    font-size: 20px;
+}
+
+.about .image-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 300px; 
+    margin-bottom: 30px; 
+}
+
+.about .image-container img {
+    width: 60%; 
+    max-width: 300px; 
+    height: auto; 
+}
+
+.about h2{
+    margin-bottom: 20px;
+}
+
+.about .program{
+    height: auto; 
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px; 
+}
+
+.about .program img{
+    width: 60%; 
+    max-width: 1000px; 
+    height: auto; 
+}
+
+.about .exp{
+    height: auto; 
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px; 
+}
+
+.about .exp img{
+    width: 25%;
+    max-width: 1000px; 
+    height: auto;
+}
